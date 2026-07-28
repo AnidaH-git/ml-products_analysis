@@ -15,7 +15,6 @@ During exploration, multiple machine learning architectures were benchmarked to 
 Models are strictly evaluated using:
   - Overall Accuracy
   - Classification Report (Precision, Recall, and F1-Score calculated per product category)
-  - Confusion Matrix Visualization to pinpoint exactly where the model struggles or misclassifies items
 # Usage Instructions
 ## Training the Model
 - Model training is performed on the provided dataset and the mist successful model is further used for testing.
