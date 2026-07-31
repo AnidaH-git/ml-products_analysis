@@ -103,7 +103,7 @@ Based on the classification reports, the Random Forest model is the best candida
 Reasons why Random Forest is the best model option:
 1. Highest Overall Performance
 
-- Accuracy: Random Forest achieved the highest overall accuracy at 98.03% (compared to Linear SVC at 97.78% and Decision Tree at 97.09%).
+- Accuracy: Random Forest achieved the highest overall accuracy at 98% (compared to Linear SVC at 97.84% and Decision Tree at 96.63%).
 
 - Macro Average F1-Score: It ties for the highest macro F1-score (0.98), showing that it handles performance across all categories evenly without neglecting smaller classes.
 
@@ -111,9 +111,9 @@ Reasons why Random Forest is the best model option:
 
 - The biggest differentiator among these models is how they handle complex, overlapping appliance categories like Dishwashers and Washing Machines:
 
-- Linear SVC has excellent precision for Dishwashers (0.99) but suffers on recall (0.91).
+- Linear SVC has excellent precision for Dishwashers (0.97) but suffers on recall (0.93).
 
-- Random Forest strikes the best balance, achieving a 0.97 precision and 0.94 recall for Dishwashers, and a 0.98 precision and 0.96 recall for Washing Machines. It catches more true instances of these tricky categories than any other model.
+- Random Forest strikes the best balance, achieving a 0.97 precision and 0.96 recall for Dishwashers, and a 0.98 precision and 0.94 recall for Washing Machines. It catches more true instances of these tricky categories than any other model.
 
 3. Balanced Precision and Recall
 
