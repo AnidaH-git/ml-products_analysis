@@ -97,7 +97,8 @@ for name, model in models.items():
     print(classification_report(y_test, y_pred))
     print("=" * 40 + "\n")
 
-"""Based on the classification reports, the Random Forest model is the best candidate for further testing, closely followed by Linear SVC.
+"""*Comment:*
+Based on the classification reports, the Random Forest model is the best candidate for further testing, closely followed by Linear SVC.
 
 Reasons why Random Forest is the best model option:
 1. Highest Overall Performance
@@ -110,7 +111,7 @@ Reasons why Random Forest is the best model option:
 
 - The biggest differentiator among these models is how they handle complex, overlapping appliance categories like Dishwashers and Washing Machines:
 
-- Linear SVC has excellent precision for Dishwashers (0.99) but suffers on recall (0.91), meaning it misses 9% of actual dishwashers.
+- Linear SVC has excellent precision for Dishwashers (0.99) but suffers on recall (0.91).
 
 - Random Forest strikes the best balance, achieving a 0.97 precision and 0.94 recall for Dishwashers, and a 0.98 precision and 0.96 recall for Washing Machines. It catches more true instances of these tricky categories than any other model.
 
@@ -118,8 +119,7 @@ Reasons why Random Forest is the best model option:
 
 - While Linear SVC performs exceptionally well on distinct categories like CPUs and Digital Cameras (perfect 1.00 scores), Random Forest matches that near-perfection while maintaining higher, more robust recall scores across the board.
 
-Final Conclusion
-- Random Forest pipeline is the best model for production or final testing. Because it handles the overlapping terminology between large home appliances better than the linear models, it will be much more robust when making predictions on messy, real-world user search queries or new inventory data.
+***Random Forest** pipeline is the best model for production or final testing. Because it handles the overlapping terminology between large home appliances better than the linear models, it will be much more robust when making predictions on messy, real-world user search queries or new inventory data.*
 """
 
 # Create the directory if it doesn't exist
