@@ -1,4 +1,4 @@
-# ml-products_analysis
+# Machine-Learning-products-analysis
 Created Machine Learning model deigned to automatically classify products into their respective categories using product titles and advanced text-based engineered features.
 This project follows strict industry data team standards, ensuring reproducibility, clear versioning, and seamless collaborative handovers.
 ## Data Pipeline & Feature Engineering
