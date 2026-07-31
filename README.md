@@ -17,7 +17,7 @@ Models are strictly evaluated using:
   - Classification Report (Precision, Recall, and F1-Score calculated per product category)
 # Usage Instructions
 ## Training the Model
-- Model training is performed on the provided dataset and the most successful model is further used for testing.
+- Model training is performed on the provided dataset and the most successful model is further used for testing
 ## Testing the Model
 - Selected model is used for testing on different products from dataset and from user input
 - Model's success has been discussed based on the achieved results
