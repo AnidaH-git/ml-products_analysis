@@ -105,7 +105,7 @@ Reasons why Random Forest is the best model option:
 
 - Accuracy: Random Forest achieved the highest overall accuracy at 98% (compared to Linear SVC at 97.84% and Decision Tree at 96.63%).
 
-- Macro Average F1-Score: It ties for the highest macro F1-score (0.98), showing that it handles performance across all categories evenly without neglecting smaller classes.
+- Macro Average F1-Score: It is in range between 0.97 and 0.99, showing that it handles performance across all categories evenly without neglecting smaller classes.
 
 2. Superior Handling of Difficult Classes
 
